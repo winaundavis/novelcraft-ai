@@ -151,8 +151,12 @@ docs/                公开使用、部署、门禁和验收文档
 
 ## 许可
 
-MIT，详见 [LICENSE](LICENSE)。安全相关请先读 [SECURITY.md](SECURITY.md)，
-特别是 `DEBUG=true` 仅限本机开发这一条。
+**MIT**，详见 [LICENSE](LICENSE)。版权归 NovelCraft AI Contributors 所有。
+
+选择 MIT 的理由：本项目采用「部分开源」模式——决定产出质量的核心实现（提示词与质量策略）
+不在此仓库中，因此开放工程部分时优先考虑**降低使用门槛**，而不是用许可限制集成方式。
+
+安全相关请先读 [SECURITY.md](SECURITY.md)，特别是 `DEBUG=true` 仅限本机开发这一条。
 
 ## 参与贡献
 
