@@ -21,7 +21,7 @@
 
 ## 本地启动
 
-需要 Python 3.11、兼容前端锁文件的 Node.js/npm。后端生产依赖使用 `backend/requirements-production.lock.txt`，测试依赖使用 `backend/requirements-dev.txt`（包含生产锁）；前端使用 `frontend/package-lock.json`。各终端从项目根目录出发，固定使用 `127.0.0.1`，避免与 localhost 混用 Cookie/浏览器存储。
+需要 Python 3.11、兼容前端锁文件的 Node.js/npm（**前端单测需 Node ≥ 22**：`npm run test:unit` 使用 node 自带的 glob，Node 20 及以下不展开通配符）。后端生产依赖使用 `backend/requirements-production.lock.txt`，测试依赖使用 `backend/requirements-dev.txt`（包含生产锁）；前端使用 `frontend/package-lock.json`。各终端从项目根目录出发，固定使用 `127.0.0.1`，避免与 localhost 混用 Cookie/浏览器存储。
 
 后端终端（PowerShell）：
 
