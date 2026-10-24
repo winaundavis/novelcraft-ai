@@ -1,0 +1,24 @@
+{
+  "id": "phase8b-quality-scene",
+  "story": "洪水淹没旧城前，林乔必须把盐灯交给桥上的梅苏。",
+  "world_rule": "盐灯一旦打开，会夺走一个无关者的记忆。",
+  "characters": ["林乔", "梅苏"],
+  "scene_goal": "林乔在桥封闭前把盐灯交给梅苏。",
+  "physical_action": "林乔涉水穿过倾倒的摊棚，攥紧湿透的油布包。",
+  "sensory_anchor": "铁锈味的洪水漫过脚踝，远处水钟敲响。",
+  "character_intention": "林乔不让梅苏知道盐灯的代价。",
+  "external_obstacle": "河务司的人正从桥头封锁退路。",
+  "emotional_shift": "林乔从隐瞒转为决定承担后果。",
+  "subtext": "梅苏追问盐灯是否安全，林乔回避代价。",
+  "scene_exit": "桥头第三声钟前，林乔看见梅苏被人拦住。",
+  "ending_contract": ["new_danger", "decision", "irreversible_change"],
+  "canonical_facts": {
+    "characters": [
+      {"id": "character_lin_qiao", "display_name": "林乔", "gender": "female"},
+      {"id": "character_mei_su", "display_name": "梅苏", "gender": "female"}
+    ],
+    "world_rules": ["盐灯打开会夺走一个无关者的记忆"],
+    "scene_goal": "把盐灯交给梅苏",
+    "external_obstacle": "河务司封桥"
+  }
+}

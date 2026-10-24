@@ -1,0 +1,7 @@
+# Backend tests use the same production dependencies as the release candidate.
+-r requirements-production.lock.txt
+pytest==9.1.1
+pytest-asyncio==1.4.0
+# 静态检查门禁（2026-10-22）：`python -m flake8 app main.py tests`
+# 规则集见 backend/.flake8（只开“写了就一定错”的 E9/F63/F7/F811/F82x）。
+flake8==7.4.1

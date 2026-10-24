@@ -1,0 +1,75 @@
+# ── Node ──────────────────────────────
+node_modules/
+dist/
+*.tsbuildinfo
+*.local
+
+# ── Python ────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# ── 数据与密钥 ────────────────────────
+backend/data/
+/data/
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.sqlite3
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite-journal
+*.sqlite3-journal
+*.bak
+*.backup
+*.dump
+.env
+.env.local
+.env.*
+!.env.example
+!.env.production.example
+backend/.env.bak*
+
+# ── 编辑器 / 系统 ─────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── 日志 / 临时 ───────────────────────
+*.log
+tmp_*.py
+
+# ── 浏览器 profile / CDP（本地调试残留，含用户隐私数据） ──
+.edge-profile/
+.edge-cdp/
+
+# ── 用户上传文件（Word 文档等，含用户作品资料） ──
+backend/uploads/
+
+# ── 测试产物（评审 JSON / 长跑报告 / 截图 / trace） ──
+test_artifacts/
+*.trace.zip
+*.zip
+
+# Playwright E2E 产物
+playwright-report/
+test-results/
+frontend/playwright-report/
+frontend/test-results/
+release-artifacts/
+
+# ── 下载的二进制工具（不入库：体积大且可再获取） ──
+tools/*.exe
+tools/*.zip
+
+# ── 包管理器与测试框架缓存 ──
+.npm-cache/
+.pytest_cache/
+**/.pytest_cache/

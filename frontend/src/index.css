@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    border-color: #e9ecef;
+  }
+  .dark * {
+    border-color: #495057;
+  }
+  body {
+    background-color: #f8f9fa;
+    color: #212529;
+    font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", system-ui, -apple-system, sans-serif;
+  }
+  .dark body {
+    background-color: #212529;
+    color: #f1f3f5;
+  }
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb {
+    background: #dee2e6;
+    border-radius: 9999px;
+  }
+  .dark ::-webkit-scrollbar-thumb {
+    background: #495057;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ced4da;
+  }
+  .dark ::-webkit-scrollbar-thumb:hover {
+    background: #6c757d;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-lg font-medium
+           transition-colors duration-150 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply bg-surface-200 hover:bg-surface-300 dark:bg-surface-700 dark:hover:bg-surface-600
+           text-surface-800 dark:text-surface-200 px-4 py-2 rounded-lg font-medium
+           transition-colors duration-150;
+  }
+  .btn-ghost {
+    @apply hover:bg-surface-200 dark:hover:bg-surface-700 text-surface-600 dark:text-surface-300
+           px-3 py-1.5 rounded-lg transition-colors duration-150;
+  }
+  .btn-danger {
+    @apply bg-error hover:bg-error/90 text-white px-4 py-2 rounded-lg font-medium
+           transition-colors duration-150 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-success {
+    @apply bg-success hover:bg-success/90 text-white rounded-lg font-medium
+           transition-colors duration-150 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-warning {
+    @apply bg-warning hover:bg-warning/90 text-white rounded-lg font-medium
+           transition-colors duration-150 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-error {
+    @apply bg-error hover:bg-error/90 text-white rounded-lg font-medium
+           transition-colors duration-150 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .card {
+    @apply bg-white dark:bg-surface-800 rounded-xl border border-surface-200 dark:border-surface-700
+           shadow-sm p-4;
+  }
+  .input-field {
+    @apply w-full bg-white dark:bg-surface-800 border border-surface-300 dark:border-surface-600
+           rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500
+           focus:border-transparent transition-all placeholder:text-surface-400;
+  }
+  .sidebar-link {
+    @apply flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium
+           text-surface-600 dark:text-surface-400 hover:bg-surface-200 dark:hover:bg-surface-700
+           transition-colors duration-150;
+  }
+  .sidebar-link.active {
+    @apply bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-400;
+  }
+}
+
+/* 编辑器样式 */
+.ProseMirror {
+  @apply outline-none min-h-[60vh] px-8 py-6;
+  font-family: "STSong", "Songti SC", "Noto Serif CJK SC", Georgia, serif;
+  font-size: 16px;
+  line-height: 2;
+}
+.ProseMirror p { @apply mb-3; }
+.ProseMirror h1 { @apply text-2xl font-bold mt-8 mb-4; }
+.ProseMirror h2 { @apply text-xl font-bold mt-6 mb-3; }
+.ProseMirror h3 { @apply text-lg font-semibold mt-4 mb-2; }
+
+/* 动画 */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in { animation: fadeIn 0.2s ease-out; }
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+.animate-pulse-dot { animation: pulse-dot 1.4s infinite; }
+.animate-pulse-dot:nth-child(2) { animation-delay: 0.2s; }
+.animate-pulse-dot:nth-child(3) { animation-delay: 0.4s; }

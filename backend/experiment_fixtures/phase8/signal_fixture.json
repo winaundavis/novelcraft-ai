@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {"id": "lin-qiao", "display_name": "林乔", "aliases": ["林乔", "Lin Qiao"]},
+    {"id": "mei-su", "display_name": "梅苏", "aliases": ["梅苏", "Mei Su"]}
+  ],
+  "chapters": [
+    {"id": "phase8-c1", "content": "场景参与：林乔，梅苏\n关系变化：character_lin_qiao|character_mei_su|allies\n状态变化：character_lin_qiao|sealed_lantern_acquired"},
+    {"id": "phase8-c2", "content": "场景参与：林乔，梅苏\n关系变化：character_lin_qiao|character_mei_su|conflict\n冲突升级：河务司封锁桥头"},
+    {"id": "phase8-c3", "content": "场景参与：林乔\n知识获得：character_lin_qiao|secret_river_debt\n状态变化：character_lin_qiao|knows_secret_river_debt"}
+  ],
+  "foreshadow": {
+    "id": "foreshadow_river_debt",
+    "events": [
+      {"chapter_id": "phase8-c1", "status": "planted", "note": "河债名册露出一角"},
+      {"chapter_id": "phase8-c2", "status": "progressing", "note": "梅苏指出债主被篡改"},
+      {"chapter_id": "phase8-c3", "status": "resolved", "resolution": "林乔确认债务归属"}
+    ],
+    "status": "resolved"
+  }
+}

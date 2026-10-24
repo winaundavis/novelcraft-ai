@@ -1,0 +1,12 @@
+# Direct production dependencies. Install requirements-production.lock.txt for
+# the complete release dependency set (CPython 3.11, Windows or Linux).
+fastapi==0.141.1
+starlette==1.3.1
+uvicorn==0.52.0
+pydantic==2.13.4
+pydantic-settings==2.14.2
+cryptography==50.0.1
+python-docx==1.2.0
+httpx==0.28.1
+python-multipart==0.0.32
+jieba==0.42.1
