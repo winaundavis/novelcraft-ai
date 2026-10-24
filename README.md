@@ -6,6 +6,18 @@
 
 当前定位为**单实例邀请制 Beta**，应用版本 `1.0.0`。本仓库是**部分开源版本**：保留完整的应用结构、数据模型、接口与测试，但**生成策略类实现以占位形式提供**（提示词正文、去 AI 味与审校的具体算法）。范围与限制见文末「开源范围」。操作见[使用指南](docs/user-guide.md)，部署/恢复/回滚见[部署手册](docs/PUBLIC_BETA_DEPLOYMENT.md)，放行依据见[上线门禁](docs/PUBLIC_BETA_GO_LIVE_CHECKLIST.md)。
 
+## 界面
+
+> 以下截图来自本地演示实例，项目、章节与正文均为**合成数据**。
+
+| 项目工作台 | 正文编辑器与项目助手 |
+|---|---|
+| ![项目工作台](docs/images/02-workspace.png) | ![正文编辑器](docs/images/03-editor.png) |
+
+| 运营后台（仅管理员可见） | 登录 |
+|---|---|
+| ![运营后台](docs/images/04-admin.png) | ![登录](docs/images/01-login.png) |
+
 ## 功能与边界
 
 | 模块 | 当前行为 |
@@ -141,3 +153,8 @@ docs/                公开使用、部署、门禁和验收文档
 
 MIT，详见 [LICENSE](LICENSE)。安全相关请先读 [SECURITY.md](SECURITY.md)，
 特别是 `DEBUG=true` 仅限本机开发这一条。
+
+## 参与贡献
+
+环境要求、提交前必跑的命令与提交约定见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+当前 CI 基线：后端 1517 passed / 11 skipped，前端 107 passed。
