@@ -1,5 +1,7 @@
 # NovelCraft AI
 
+[![CI](https://github.com/winaundavis/novelcraft-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/winaundavis/novelcraft-ai/actions/workflows/ci.yml)
+
 中文小说创作工作台：用项目组织故事、大纲、人物、世界规则与正文，通过项目助手提出修改，再由作者确认候选。
 
 当前定位为**单实例邀请制 Beta**，应用版本 `1.0.0`。本仓库是**部分开源版本**：保留完整的应用结构、数据模型、接口与测试，但**生成策略类实现以占位形式提供**（提示词正文、去 AI 味与审校的具体算法）。范围与限制见文末「开源范围」。操作见[使用指南](docs/user-guide.md)，部署/恢复/回滚见[部署手册](docs/PUBLIC_BETA_DEPLOYMENT.md)，放行依据见[上线门禁](docs/PUBLIC_BETA_GO_LIVE_CHECKLIST.md)。
