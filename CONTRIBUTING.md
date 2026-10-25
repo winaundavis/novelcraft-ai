@@ -93,5 +93,12 @@ frontend/tests/          纯函数单测与 Playwright E2E
 
 ## 报告问题
 
-安全问题请勿走公开 Issue，见 [SECURITY.md](SECURITY.md)。
-功能问题请提供：复现步骤、期望行为、实际行为、以及相关日志（**先脱敏**）。
+先选对渠道，能省一轮往返：
+
+| 你想… | 去哪 |
+|---|---|
+| 问用法、讨论设计、交流长文生成经验 | [Discussions / Q&A](https://github.com/winaundavis/novelcraft-ai/discussions/categories/q-a) |
+| 报一个可复现的缺陷 | Issues（请附复现步骤） |
+| 报安全漏洞 | ❌ 不要走公开渠道，见 [SECURITY.md](SECURITY.md) |
+
+报缺陷请提供：复现步骤、期望行为、实际行为、以及相关日志（**先脱敏**）。
