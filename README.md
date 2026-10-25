@@ -162,3 +162,5 @@ docs/                公开使用、部署、门禁和验收文档
 
 环境要求、提交前必跑的命令与提交约定见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 当前 CI 基线：后端 1517 passed / 11 skipped，前端 107 passed。
+
+版本与更新记录见 [Releases](https://github.com/winaundavis/novelcraft-ai/releases)。
