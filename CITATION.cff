@@ -12,8 +12,8 @@ abstract: >-
 type: software
 authors:
   - name: "NovelCraft AI Contributors"
-version: "1.0.0"
-date-released: "2026-10-25"
+version: "1.0.1"
+date-released: "2026-10-28"
 license: MIT
 repository-code: "https://github.com/winaundavis/novelcraft-ai"
 url: "https://github.com/winaundavis/novelcraft-ai"
