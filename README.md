@@ -149,6 +149,11 @@ docs/                公开使用、部署、门禁和验收文档
 因此：**本仓库可以运行、可以部署、可以改，但开箱产出的文本质量不代表线上版本。**
 若你希望复现线上质量，需要自行编写提示词与质量策略——这也是本项目的核心工作量所在。
 
+## 引用
+
+若需在论文或技术报告中引用，见 [CITATION.cff](CITATION.cff)——GitHub 仓库页右侧会显示
+「Cite this repository」，可直接导出 BibTeX / APA。归档 DOI 在 Zenodo 完成首次归档后补充。
+
 ## 许可
 
 **MIT**，详见 [LICENSE](LICENSE)。版权归 NovelCraft AI Contributors 所有。

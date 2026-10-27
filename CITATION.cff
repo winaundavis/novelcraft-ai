@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software in academic or technical work, please cite it as below."
+title: "NovelCraft AI"
+abstract: >-
+  A single-instance, invite-only workspace for writing Chinese long-form fiction.
+  Work is organised as project to outline, volume, story arc and chapter; the model
+  only proposes candidates that the author confirms before anything is persisted.
+  This repository is the partially open-sourced (open-core) engineering release:
+  application structure, data model, API, UI, deployment and the offline test suite
+  are included, while the prompt orchestration and quality strategies that determine
+  output quality are not.
+type: software
+authors:
+  - name: "NovelCraft AI Contributors"
+version: "1.0.0"
+date-released: "2026-10-25"
+license: MIT
+repository-code: "https://github.com/winaundavis/novelcraft-ai"
+url: "https://github.com/winaundavis/novelcraft-ai"
+keywords:
+  - "AI writing"
+  - "long-form text generation"
+  - "Chinese web novel"
+  - "LLM engineering"
+  - "FastAPI"
+  - "React"
+  - "SQLite"

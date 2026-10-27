@@ -1,0 +1,30 @@
+{
+  "title": "NovelCraft AI: 中文小说创作工作台（部分开源工程版本）",
+  "description": "<p>NovelCraft AI 是一个面向中文长篇小说创作的工作台，按「项目 → 大纲 → 卷 → 剧情弧 → 章节」组织创作，模型只产出候选，作者确认后才落库。</p><p>本记录归档的是<strong>部分开源（open-core）的工程版本</strong>：包含应用结构、数据模型、API、前端界面、部署与运维脚本，以及 1517 个离线测试；不包含决定产出质量的提示词编排与质量策略实现。</p><p>技术栈：FastAPI + React + TypeScript + SQLite/FTS5。</p>",
+  "creators": [
+    {
+      "name": "NovelCraft AI Contributors"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "zho",
+  "version": "1.0.0",
+  "keywords": [
+    "AI writing",
+    "long-form text generation",
+    "Chinese web novel",
+    "LLM engineering",
+    "FastAPI",
+    "React",
+    "SQLite"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/winaundavis/novelcraft-ai",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
