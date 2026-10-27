@@ -1,6 +1,7 @@
 # NovelCraft AI
 
 [![CI](https://github.com/winaundavis/novelcraft-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/winaundavis/novelcraft-ai/actions/workflows/ci.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23696173.svg)](https://doi.org/10.5281/zenodo.23696173)
 
 中文小说创作工作台：用项目组织故事、大纲、人物、世界规则与正文，通过项目助手提出修改，再由作者确认候选。
 
@@ -152,7 +153,10 @@ docs/                公开使用、部署、门禁和验收文档
 ## 引用
 
 若需在论文或技术报告中引用，见 [CITATION.cff](CITATION.cff)——GitHub 仓库页右侧会显示
-「Cite this repository」，可直接导出 BibTeX / APA。归档 DOI 在 Zenodo 完成首次归档后补充。
+「Cite this repository」，可直接导出 BibTeX / APA。
+
+- **Concept DOI（推荐，永远解析到最新版）**：`10.5281/zenodo.23696173`
+- 版本 DOI（指向 v1.0.1）：`10.5281/zenodo.23696174`
 
 ## 许可
 
