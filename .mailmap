@@ -1,0 +1,8 @@
+# 提交身份映射
+#
+# 把此前由角色化身份产生的提交，统一显示为维护者账号，
+# 便于 `git log` / `git shortlog` 与 GitHub 上的归属一致。
+#
+# 格式：规范姓名 <规范邮箱> 提交姓名 <提交邮箱>
+NovelCraft AI Contributors <295913125+winaundavis@users.noreply.github.com> NovelCraft AI Contributors <contact@example.com>
+NovelCraft AI Contributors <295913125+winaundavis@users.noreply.github.com> NovelCraft Dev Team <dev@novelcraft.local>
